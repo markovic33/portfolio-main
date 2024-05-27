@@ -24,7 +24,7 @@ const About = () => {
   return (
     <div ref={ref} id="about" className="section">
       <div className="container mx-auto ">
-        <div className="flex flex-col  lg:flex-row lg:items-center  lg:gap-x-20 lg:gap-y-0 h-screen">
+        <div className="flex flex-col  lg:flex-row lg:items-center  lg:gap-x-20 lg:gap-y-0 ">
           <motion.div
             variants={fadeIn("left", 0.5)}
             initial="hidden"

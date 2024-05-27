@@ -13,6 +13,10 @@ import tenzis from "../assets/tenzis1.png";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 import chat from "../assets/web_chat.png";
+import airbnb1 from "../assets/airbnb1.png";
+import blog from "../assets/blog.png";
+import rent from "../assets/rentcar.png";
+import ruza from "../assets/ruzavetrova.png";
 
 const Services = () => {
   return (
@@ -32,6 +36,116 @@ const Services = () => {
               <div className="group relative overflow-hidden border-2 max-h-[260px] border-white/50 rounded-xl">
                 <div className="group-hover:bg-black/60 w-full h-full absolute z-40 transition-all duration-300"></div>
                 <img
+                  src={ruza}
+                  alt="denver"
+                  className="object-cover w-[280px] h-[130px] group-hover:scale-110 transition-all duration-500"
+                />
+                <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
+                  <span className="text-gradient">Nextjs</span>
+                </div>
+                <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
+                  <span className="text-3xl text-white">
+                    Ruza Vetrova Sokobanja
+                  </span>
+                </div>
+                <div className="absolute -bottom-full left-12 group-hover:bottom-4 transition-all duration-700 z-50">
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://ruzavetrova.vercel.app/"
+                    className=" underline text-xl text-white"
+                  >
+                    Visit site
+                  </a>
+                </div>
+              </div>
+            </section>
+
+            <section class="flex-shrink-0 rounded-lg mb-2 ">
+              <div className="group relative overflow-hidden border-2 max-h-[260px] border-white/50 rounded-xl">
+                <div className="group-hover:bg-black/60 w-full h-full absolute z-40 transition-all duration-300"></div>
+                <img
+                  src={rent}
+                  alt="denver"
+                  className="object-cover w-[280px] h-[130px] group-hover:scale-110 transition-all duration-500"
+                />
+                <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
+                  <span className="text-gradient">Nextjs</span>
+                </div>
+                <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
+                  <span className="text-3xl text-white">Rent Luxury Car</span>
+                </div>
+                <div className="absolute -bottom-full left-12 group-hover:bottom-4 transition-all duration-700 z-50">
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://rent-car-one-pink.vercel.app/"
+                    className=" underline text-xl text-white"
+                  >
+                    Visit site
+                  </a>
+                </div>
+              </div>
+            </section>
+
+            <section class="flex-shrink-0 rounded-lg mb-2 ">
+              <div className="group relative overflow-hidden border-2 max-h-[260px] border-white/50 rounded-xl">
+                <div className="group-hover:bg-black/60 w-full h-full absolute z-40 transition-all duration-300"></div>
+                <img
+                  src={blog}
+                  alt="denver"
+                  className="object-cover w-[280px] h-[130px] group-hover:scale-110 transition-all duration-500"
+                />
+                <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
+                  <span className="text-gradient">Nextjs</span>
+                </div>
+                <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
+                  <span className="text-3xl text-white">Blog</span>
+                </div>
+                <div className="absolute -bottom-full left-12 group-hover:bottom-4 transition-all duration-700 z-50">
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://next-blog-ten-puce.vercel.app/"
+                    className=" underline text-xl text-white"
+                  >
+                    Visit site
+                  </a>
+                </div>
+              </div>
+            </section>
+
+            <section class="flex-shrink-0 rounded-lg mb-2 ">
+              <div className="group relative overflow-hidden border-2 max-h-[260px] border-white/50 rounded-xl">
+                <div className="group-hover:bg-black/60 w-full h-full absolute z-40 transition-all duration-300"></div>
+                <img
+                  src={airbnb1}
+                  alt="denver"
+                  className="object-cover w-[280px] h-[130px] group-hover:scale-110 transition-all duration-500"
+                />
+                <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
+                  <span className="text-gradient">Nextjs</span>
+                </div>
+                <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
+                  <span className="text-3xl text-white">Airbnb Clone</span>
+                </div>
+                <div className="absolute -bottom-full left-12 group-hover:bottom-4 transition-all duration-700 z-50">
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://next-airbnb-clone-phi.vercel.app/"
+                    className=" underline text-xl text-white"
+                  >
+                    Visit site
+                  </a>
+                </div>
+              </div>
+            </section>
+
+            <section class="flex-shrink-0 rounded-lg mb-2 ">
+              <div className="group relative overflow-hidden border-2 max-h-[260px] border-white/50 rounded-xl">
+                <div className="group-hover:bg-black/60 w-full h-full absolute z-40 transition-all duration-300"></div>
+                <img
                   src={denver}
                   alt="denver"
                   className="object-cover w-[280px] h-[130px] group-hover:scale-110 transition-all duration-500"
@@ -40,13 +154,13 @@ const Services = () => {
                   <span className="text-gradient">Nextjs</span>
                 </div>
                 <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                  <span className="text-3xl text-white">Anime Site</span>
+                  <span className="text-3xl text-white">Denver Nuggets</span>
                 </div>
                 <div className="absolute -bottom-full left-12 group-hover:bottom-4 transition-all duration-700 z-50">
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    href="https://next-anime-beta.vercel.app/"
+                    href="https://next-denver-nuggets.vercel.app/"
                     className=" underline text-xl text-white"
                   >
                     Visit site
