@@ -17,6 +17,7 @@ import airbnb1 from "../assets/airbnb1.png";
 import blog from "../assets/blog.png";
 import rent from "../assets/rentcar.png";
 import ruza from "../assets/ruzavetrova.png";
+import servis from "../assets/servis.png";
 
 const Services = () => {
   return (
@@ -107,6 +108,33 @@ const Services = () => {
                     target="_blank"
                     rel="noreferrer"
                     href="https://next-blog-ten-puce.vercel.app/"
+                    className=" underline text-xl text-white"
+                  >
+                    Visit site
+                  </a>
+                </div>
+              </div>
+            </section>
+
+            <section class="flex-shrink-0 rounded-lg mb-2 ">
+              <div className="group relative overflow-hidden border-2 max-h-[260px] border-white/50 rounded-xl">
+                <div className="group-hover:bg-black/60 w-full h-full absolute z-40 transition-all duration-300"></div>
+                <img
+                  src={servis}
+                  alt="denver"
+                  className="object-cover w-[280px] h-[130px] group-hover:scale-110 transition-all duration-500"
+                />
+                <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
+                  <span className="text-gradient">Nextjs</span>
+                </div>
+                <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
+                  <span className="text-3xl text-white">Servis Corado</span>
+                </div>
+                <div className="absolute -bottom-full left-12 group-hover:bottom-4 transition-all duration-700 z-50">
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://servis-corado.vercel.app/"
                     className=" underline text-xl text-white"
                   >
                     Visit site

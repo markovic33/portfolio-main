@@ -1,13 +1,9 @@
 import React from "react";
-import anime from "../assets/anime.png";
-import denver from "../assets/denver.png";
-import man from "../assets/man.png";
 import { Link } from "react-scroll";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 import airbnb1 from "../assets/airbnb1.png";
-import blog from "../assets/blog.png";
-import rent from "../assets/rentcar.png";
+import servis from "../assets/servis.png";
 import ruza from "../assets/ruzavetrova.png";
 
 const Work = () => {
@@ -77,23 +73,23 @@ const Work = () => {
           <div className="group relative overflow-hidden border-2 max-h-[260px]  mb-[10px]  border-white/50 rounded-xl">
             <div className="group-hover:bg-black/60 w-full h-full absolute z-40 transition-all duration-300"></div>
             <img
-              src={rent}
-              alt="denver"
+              src={servis}
+              alt="servis"
               className="object-cover w-full h-full group-hover:scale-110 transition-all duration-500"
             />
             <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
               <span className="text-gradient">
-                Nextjs/Prisma/Supabase/ShadncUI
+                Nextjs/Sanity/Tailwind/ShadncUI
               </span>
             </div>
             <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-              <span className="text-3xl text-white">Rent Luxury Car</span>
+              <span className="text-3xl text-white">Servis Corado</span>
             </div>
             <div className="absolute -bottom-full left-12 group-hover:bottom-4 transition-all duration-700 z-50">
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://rent-car-one-pink.vercel.app/"
+                href="https://servis-corado.vercel.app/"
                 className=" underline text-xl text-white"
               >
                 Visit site
