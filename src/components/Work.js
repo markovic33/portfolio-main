@@ -34,7 +34,7 @@ const Work = () => {
               View all project
             </Link>
           </div>
-          <div className="group relative overflow-hidden border-2 max-h-[320px] border-white/50 rounded-xl ">
+          <div className="group relative overflow-hidden border-2 max-h-[260px] border-white/50 rounded-xl ">
             <div className="group-hover:bg-black/60 w-full h-full absolute z-40 transition-all duration-300"></div>
             <img
               src={ruza}
@@ -68,9 +68,9 @@ const Work = () => {
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: false, amount: 0.3 }}
-          className="flex-1 flex-col items-center justify-normal mb-[157px]  "
+          className="flex-1 flex-col items-center justify-normal mb-[97px]  "
         >
-          <div className="group relative overflow-hidden border-2 max-h-[320px]  mb-[10px]  border-white/50 rounded-xl">
+          <div className="group relative overflow-hidden border-2 max-h-[260px]  mb-[10px]  border-white/50 rounded-xl">
             <div className="group-hover:bg-black/60 w-full h-full absolute z-40 transition-all duration-300"></div>
             <img
               src={servis}
@@ -97,7 +97,7 @@ const Work = () => {
             </div>
           </div>
 
-          <div className="group relative overflow-hidden border-2 max-h-[320px] border-white/50 rounded-xl">
+          <div className="group relative overflow-hidden border-2 max-h-[260px] border-white/50 rounded-xl">
             <div className="group-hover:bg-black/60 w-full h-full absolute z-40 transition-all duration-300"></div>
             <img
               src={airbnb1}

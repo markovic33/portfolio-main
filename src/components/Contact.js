@@ -29,7 +29,7 @@ const Contact = () => {
   };
   return (
     <section id="contact" className="py-16 lg:section">
-      <div className="container mx-auto h-screen mt-40">
+      <div className="container mx-auto h-screen ">
         <div className="flex flex-col lg:flex-row">
           <motion.div
             variants={fadeIn("right", 0.4)}

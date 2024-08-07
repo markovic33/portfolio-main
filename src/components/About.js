@@ -22,7 +22,7 @@ const About = () => {
   });
 
   return (
-    <div ref={ref} id="about" className="section">
+    <div ref={ref} id="about" className="section  ">
       <div className="container mx-auto h-screen ">
         <div className="flex flex-col  lg:flex-row lg:items-center  lg:gap-x-30 lg:gap-y-0 ">
           <motion.div
@@ -30,7 +30,7 @@ const About = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
-            className="flex-1 lg:flex  gap-x-6"
+            className="flex-1 lg:flex  gap-x-6 lg:mb-64"
           >
             <>
               <div className="hidden lg:block lg:w-1/2">
@@ -250,7 +250,7 @@ const About = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
-            className="flex-1 mt-10 "
+            className="flex-1 mt-10 lg:mb-64 "
           >
             <h2 className="h2">About me.</h2>
             <h3 className="h3 mb-4">

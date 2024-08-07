@@ -30,7 +30,7 @@ const Services = () => {
           viewport={{ once: false, amount: 0.3 }}
           className="flex flex-col"
         >
-          <h1 className="text-3xl ml-4 mb-2 mt-2 text-gradient">NextJS</h1>
+          <h1 className="text-3xl ml-4 mb-2  text-gradient">NextJS</h1>
 
           <div class="flex overflow-x-auto space-x-8 ml-10 mr-10 ">
             <section class="flex-shrink-0 rounded-lg mb-2 ">
