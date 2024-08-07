@@ -9,20 +9,20 @@ import ruza from "../assets/ruzavetrova.png";
 const Work = () => {
   return (
     <section id="work" className="">
-      <div className="flex flex-col items-center gap-2 lg:flex-row min-h-screen py-4 px-[30px] ">
+      <div className="flex flex-col items-center gap-2 lg:flex-row h-screen  px-[30px] ">
         <motion.div
           variants={fadeIn("up", 0.4)}
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: false, amount: 0.3 }}
-          className="flex-1 flex-col items-center justify-normal   "
+          className="flex-1 flex-col items-center justify-normal mb-24   "
         >
           <div className="mb-[10px] lg:mb-[22px]">
             <h2 className="h2 leading-tight text-accent">
               My Latest
               <br /> Work.
             </h2>
-            <p className="max-w-sm mb-4">
+            <p className="max-w-sm mb-4 font-medium">
               I like getting into the unknown and solving problems. I see
               programming as a very broad area where I can make a lot of
               progress.
@@ -34,7 +34,7 @@ const Work = () => {
               View all project
             </Link>
           </div>
-          <div className="group relative overflow-hidden border-2 max-h-[260px] border-white/50 rounded-xl">
+          <div className="group relative overflow-hidden border-2 max-h-[320px] border-white/50 rounded-xl ">
             <div className="group-hover:bg-black/60 w-full h-full absolute z-40 transition-all duration-300"></div>
             <img
               src={ruza}
@@ -68,9 +68,9 @@ const Work = () => {
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: false, amount: 0.3 }}
-          className="flex-1 flex-col items-center justify-normal   "
+          className="flex-1 flex-col items-center justify-normal mb-[157px]  "
         >
-          <div className="group relative overflow-hidden border-2 max-h-[260px]  mb-[10px]  border-white/50 rounded-xl">
+          <div className="group relative overflow-hidden border-2 max-h-[320px]  mb-[10px]  border-white/50 rounded-xl">
             <div className="group-hover:bg-black/60 w-full h-full absolute z-40 transition-all duration-300"></div>
             <img
               src={servis}
@@ -97,7 +97,7 @@ const Work = () => {
             </div>
           </div>
 
-          <div className="group relative overflow-hidden border-2 max-h-[260px] border-white/50 rounded-xl">
+          <div className="group relative overflow-hidden border-2 max-h-[320px] border-white/50 rounded-xl">
             <div className="group-hover:bg-black/60 w-full h-full absolute z-40 transition-all duration-300"></div>
             <img
               src={airbnb1}

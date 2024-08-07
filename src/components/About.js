@@ -23,8 +23,8 @@ const About = () => {
 
   return (
     <div ref={ref} id="about" className="section">
-      <div className="container mx-auto ">
-        <div className="flex flex-col  lg:flex-row lg:items-center  lg:gap-x-20 lg:gap-y-0 ">
+      <div className="container mx-auto h-screen ">
+        <div className="flex flex-col  lg:flex-row lg:items-center  lg:gap-x-30 lg:gap-y-0 ">
           <motion.div
             variants={fadeIn("left", 0.5)}
             initial="hidden"
@@ -35,213 +35,213 @@ const About = () => {
             <>
               <div className="hidden lg:block lg:w-1/2">
                 <h1 className="h3">Frontend</h1>
-                <div className="mb-4">
-                  <div className="flex items-center gap-6 mb-1">
+                <motion.div
+                  variants={fadeIn("down", 0.7)}
+                  initial="hidden"
+                  whileInView={"show"}
+                  viewport={{ once: false, amount: 0.35 }}
+                  className="flex-1 lg:flex  gap-x-6 mb-4"
+                >
+                  <div className="flex items-center gap-6 mb-1 font-medium">
                     Css3
                     <img
-                      className="rounded-full object-cover w-6 h-6"
+                      className="rounded-full object-cover w-7 h-7"
                       src={css}
                       alt="/"
-                      width={20}
-                      height={20}
+                      width={30}
+                      height={30}
                     />
                   </div>
-                  <div className="bg-gray-200 h-3 rounded-full">
-                    <div
-                      className="bg-blue-500 h-full rounded-full"
-                      style={{ width: "99%" }}
-                    ></div>
-                  </div>
-                </div>
-                <div className="mb-4">
-                  <div className="flex items-center gap-6 mb-1">
+                </motion.div>
+                <motion.div
+                  variants={fadeIn("down", 0.85)}
+                  initial="hidden"
+                  whileInView={"show"}
+                  viewport={{ once: false, amount: 0.4 }}
+                  className="flex-1 lg:flex  gap-x-6 mb-4"
+                >
+                  <div className="flex items-center gap-6 mb-1 font-medium">
                     Html5
                     <img
-                      className="rounded-full object-cover w-6 h-6"
+                      className="rounded-full object-cover w-7 h-7"
                       src={html}
                       alt="/"
-                      width={20}
-                      height={20}
+                      width={30}
+                      height={30}
                     />
                   </div>
-                  <div className="bg-gray-200 h-3 rounded-full">
-                    <div
-                      className="bg-blue-500 h-full rounded-full"
-                      style={{ width: "99%" }}
-                    ></div>
-                  </div>
-                </div>
+                </motion.div>
 
-                <div className="mb-4">
-                  <div className="flex items-center gap-6 mb-1">
+                <motion.div
+                  variants={fadeIn("down", 0.9)}
+                  initial="hidden"
+                  whileInView={"show"}
+                  viewport={{ once: false, amount: 0.45 }}
+                  className="flex-1 lg:flex  gap-x-6 mb-4"
+                >
+                  <div className="flex items-center gap-6 mb-1 font-medium">
                     JavaScript
                     <img
-                      className="rounded-full object-cover w-6 h-6"
+                      className="rounded-full object-cover w-7 h-7"
                       src={js}
                       alt="/"
-                      width={20}
-                      height={20}
+                      width={30}
+                      height={30}
                     />
                   </div>
-                  <div className="bg-gray-200 h-3 rounded-full">
-                    <div
-                      className="bg-blue-500 h-full rounded-full"
-                      style={{ width: "99%" }}
-                    ></div>
-                  </div>
-                </div>
-                <div className="mb-4">
-                  <div className="flex items-center gap-6 mb-1">
+                </motion.div>
+                <motion.div
+                  variants={fadeIn("down", 1.05)}
+                  initial="hidden"
+                  whileInView={"show"}
+                  viewport={{ once: false, amount: 0.5 }}
+                  className="flex-1 lg:flex  gap-x-6 mb-4"
+                >
+                  <div className="flex items-center gap-6 mb-1 font-medium">
                     Tailwind
                     <img
-                      className="rounded-full object-cover w-6 h-6"
+                      className="rounded-full object-cover w-7 h-7"
                       src={tailwind}
                       alt="/"
-                      width={20}
-                      height={20}
+                      width={30}
+                      height={30}
                     />
                   </div>
-                  <div className="bg-gray-200 h-3 rounded-full">
-                    <div
-                      className="bg-blue-500 h-full rounded-full"
-                      style={{ width: "99%" }}
-                    ></div>
-                  </div>
-                </div>
+                </motion.div>
 
-                <div className="mb-4">
-                  <div className="flex items-center gap-6 mb-1">
+                <motion.div
+                  variants={fadeIn("down", 1.2)}
+                  initial="hidden"
+                  whileInView={"show"}
+                  viewport={{ once: false, amount: 0.55 }}
+                  className="flex-1 lg:flex  gap-x-6 mb-4"
+                >
+                  <div className="flex items-center gap-6 mb-1 font-medium">
                     Daisy UI
                     <img
-                      className="rounded-full object-cover w-6 h-6"
+                      className="rounded-full object-cover w-7 h-7"
                       src={daisy}
                       alt="/"
-                      width={20}
-                      height={20}
+                      width={30}
+                      height={30}
                     />
                   </div>
-                  <div className="bg-gray-200 h-3 rounded-full">
-                    <div
-                      className="bg-blue-500 h-full rounded-full"
-                      style={{ width: "99%" }}
-                    ></div>
-                  </div>
-                </div>
-                <div className="mb-4">
-                  <div className="flex items-center gap-6 mb-1">
+                </motion.div>
+                <motion.div
+                  variants={fadeIn("down", 1.35)}
+                  initial="hidden"
+                  whileInView={"show"}
+                  viewport={{ once: false, amount: 0.6 }}
+                  className="flex-1 lg:flex  gap-x-6 mb-4"
+                >
+                  <div className="flex items-center gap-6 mb-1 font-medium">
                     React
                     <img
-                      className="rounded-full object-cover w-6 h-6"
+                      className="rounded-full object-cover w-7 h-7"
                       src={react}
                       alt="/"
-                      width={20}
-                      height={20}
+                      width={30}
+                      height={30}
                     />
                   </div>
-                  <div className="bg-gray-200 h-3 rounded-full">
-                    <div
-                      className="bg-blue-500 h-full rounded-full"
-                      style={{ width: "99%" }}
-                    ></div>
-                  </div>
-                </div>
+                </motion.div>
               </div>
 
               <div className="lg:w-1/2">
                 <h1 className="h3">Backend</h1>
-                <div className="mb-4">
-                  <div className="flex items-center gap-6 mb-1">
+                <motion.div
+                  variants={fadeIn("left", 0.6)}
+                  initial="hidden"
+                  whileInView={"show"}
+                  viewport={{ once: false, amount: 0.3 }}
+                  className="flex-1 lg:flex  gap-x-6 mb-4"
+                >
+                  <div className="flex items-center gap-6 mb-1 font-medium">
                     Next.js
                     <img
-                      className="rounded-full object-cover w-6 h-6"
+                      className="rounded-full object-cover w-7 h-7"
                       src={next}
                       alt="/"
-                      width={20}
-                      height={20}
+                      width={30}
+                      height={30}
                     />
                   </div>
-                  <div className="bg-gray-200 h-3 rounded-full">
-                    <div
-                      className="bg-blue-500 h-full rounded-full"
-                      style={{ width: "99%" }}
-                    ></div>
-                  </div>
-                </div>
-                <div className="mb-4">
-                  <div className="flex items-center gap-6 mb-1">
+                </motion.div>
+                <motion.div
+                  variants={fadeIn("up", 0.7)}
+                  initial="hidden"
+                  whileInView={"show"}
+                  viewport={{ once: false, amount: 0.35 }}
+                  className="flex-1 lg:flex  gap-x-6 mb-4"
+                >
+                  <div className="flex items-center gap-6 mb-1 font-medium">
                     Prisma
                     <img
-                      className="rounded-full object-cover w-6 h-6"
+                      className="rounded-full object-cover w-7 h-7"
                       src={prisma}
                       alt="/"
-                      width={20}
-                      height={20}
+                      width={30}
+                      height={30}
                     />
                   </div>
-                  <div className="bg-gray-200 h-3 rounded-full">
-                    <div
-                      className="bg-blue-500 h-full rounded-full"
-                      style={{ width: "99%" }}
-                    ></div>
-                  </div>
-                </div>
+                </motion.div>
 
-                <div className="mb-4">
-                  <div className="flex items-center gap-6 mb-1">
+                <motion.div
+                  variants={fadeIn("up", 0.85)}
+                  initial="hidden"
+                  whileInView={"show"}
+                  viewport={{ once: false, amount: 0.4 }}
+                  className="flex-1 lg:flex  gap-x-6 mb-4"
+                >
+                  <div className="flex items-center gap-6 mb-1 font-medium">
                     Mongo DB
                     <img
-                      className="rounded-full object-cover w-6 h-6"
+                      className="rounded-full object-cover w-7 h-7"
                       src={mongo}
                       alt="/"
-                      width={20}
-                      height={20}
+                      width={30}
+                      height={30}
                     />
                   </div>
-                  <div className="bg-gray-200 h-3 rounded-full">
-                    <div
-                      className="bg-blue-500 h-full rounded-full"
-                      style={{ width: "99%" }}
-                    ></div>
-                  </div>
-                </div>
+                </motion.div>
 
-                <div className="mb-4">
-                  <div className="flex items-center gap-6 mb-1">
+                <motion.div
+                  variants={fadeIn("up", 1)}
+                  initial="hidden"
+                  whileInView={"show"}
+                  viewport={{ once: false, amount: 0.45 }}
+                  className="flex-1 lg:flex  gap-x-6 mb-4"
+                >
+                  <div className="flex items-center gap-6 mb-1 font-medium">
                     PHP
                     <img
-                      className="rounded-full object-cover w-6 h-6"
+                      className="rounded-full object-cover w-7 h-7"
                       src={php}
                       alt="/"
-                      width={20}
-                      height={20}
+                      width={30}
+                      height={30}
                     />
                   </div>
-                  <div className="bg-gray-200 h-3 rounded-full">
-                    <div
-                      className="bg-blue-500 h-full rounded-full"
-                      style={{ width: "60%" }}
-                    ></div>
-                  </div>
-                </div>
+                </motion.div>
 
-                <div className="mb-4">
-                  <div className="flex items-center gap-6 mb-1">
+                <motion.div
+                  variants={fadeIn("up", 1.15)}
+                  initial="hidden"
+                  whileInView={"show"}
+                  viewport={{ once: false, amount: 0.5 }}
+                  className="flex-1 lg:flex  gap-x-6 mb-4"
+                >
+                  <div className="flex items-center gap-6 mb-1 font-medium">
                     SQL
                     <img
-                      className="rounded-full object-cover w-6 h-6 "
+                      className="rounded-full object-cover w-7 h-7 "
                       src={sql}
                       alt="/"
-                      width={20}
-                      height={20}
+                      width={30}
+                      height={30}
                     />
                   </div>
-                  <div className="bg-gray-200 h-3 rounded-full">
-                    <div
-                      className="bg-blue-500 h-full rounded-full"
-                      style={{ width: "50%" }}
-                    ></div>
-                  </div>
-                </div>
+                </motion.div>
               </div>
             </>
           </motion.div>
@@ -254,7 +254,7 @@ const About = () => {
           >
             <h2 className="h2">About me.</h2>
             <h3 className="h3 mb-4">
-              I'm a web developer with over 2 years of experience.
+              I'm a web developer with over 3 years of experience.
             </h3>
             <p className="mb-6">
               {" "}
@@ -266,10 +266,10 @@ const About = () => {
               tech-obsessed.
             </p>
 
-            <div className="flex gap-x-6 lg:gap-x-10 mb-12">
+            <div className="flex gap-x-6 lg:gap-x-10 mb-1 font-medium2">
               <div>
                 <div className="text-[40px] font-tertiary text-gradient mb-2">
-                  {inView ? <CountUp start={0} end={2} duration={3} /> : null} +
+                  {inView ? <CountUp start={0} end={3} duration={3} /> : null} +
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
                   Years of <br /> Experience
@@ -278,7 +278,7 @@ const About = () => {
 
               <div>
                 <div className="text-[40px] font-tertiary text-gradient mb-2">
-                  {inView ? <CountUp start={0} end={30} duration={3} /> : null}+
+                  {inView ? <CountUp start={0} end={40} duration={3} /> : null}+
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
                   Projects <br /> Completed
@@ -287,18 +287,12 @@ const About = () => {
 
               <div>
                 <div className="text-[40px] font-tertiary text-gradient mb-2">
-                  {inView ? <CountUp start={0} end={10} duration={3} /> : null}+
+                  {inView ? <CountUp start={0} end={2} duration={3} /> : null}+
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
                   Satisfied <br /> Client
                 </div>
               </div>
-            </div>
-            <div className="hidden lg:flex  lg:justify-center lg:ml-[170px] lg:items-center  gap-x-6">
-              <button className="btn btn-lg">Contact me</button>
-              <a href="/" className="text-gradient btn-link">
-                My Portfolio
-              </a>
             </div>
           </motion.div>
         </div>

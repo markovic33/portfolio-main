@@ -1,5 +1,5 @@
 module.exports = {
-  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  content: ["./src/**/*.{html,js,jsx,ts,tsx}"],
   theme: {
     fontFamily: {
       primary: "Orbitron",
@@ -27,6 +27,7 @@ module.exports = {
         site: "url('./assets/blllll.jpg')",
         about: "url('./assets/mee.png')",
         services: "url('./assets/services.png')",
+        back: "url('./assets/main.png')",
       },
     },
   },

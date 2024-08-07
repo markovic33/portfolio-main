@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 import emailjs from "@emailjs/browser";
 import { useRef } from "react";
+import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 
 const Contact = () => {
   const form = useRef();
@@ -28,7 +29,7 @@ const Contact = () => {
   };
   return (
     <section id="contact" className="py-16 lg:section">
-      <div className="container mx-auto">
+      <div className="container mx-auto h-screen mt-40">
         <div className="flex flex-col lg:flex-row">
           <motion.div
             variants={fadeIn("right", 0.4)}
@@ -44,6 +45,35 @@ const Contact = () => {
               <h2 className="text-[45px] lg:text-[90px] leading-none mb-12">
                 Let's work <br /> together.
               </h2>
+              <motion.div
+              variants={fadeIn("up", 0.7)}
+              initial="hidden"
+              whileInView={"show"}
+              viewport={{ once: false, amount: 0.7 }}
+              className="flex mb-[80px]  text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0 lg:justify-center lg:ml-[140px]"
+            >
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="www.linkedin.com/in/jovanmarkovic9"
+              >
+                <FaLinkedin />
+              </a>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://github.com/markovic33"
+              >
+                <FaGithub />
+              </a>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.instagram.com/markoviconline/"
+              >
+                <FaInstagram />
+              </a>
+            </motion.div>
             </div>
           </motion.div>
           <motion.form
@@ -56,18 +86,18 @@ const Contact = () => {
             onSubmit={sendEmail}
           >
             <input
-              className="bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-blue-800 transition-all "
+              className="bg-transparent border-b py-3 outline-none w-full placeholder:text-black/55 focus:border-blue-800 transition-all "
               type="text"
               placeholder="Your name"
             />
             <input
-              className="bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-blue-800 transition-all "
+              className="bg-transparent border-b py-3 outline-none w-full placeholder:text-black/55 focus:border-blue-800 transition-all "
               type="email"
               placeholder="Your email"
             />
             <textarea
               placeholder="Your Message"
-              className="bg-transparent border-b py-12 outline-none w-full placeholder:text-white focus:border-blue-800 transition-all resize-none mb-6 "
+              className="bg-transparent border-b py-12 outline-none w-full placeholder:text-black/55 focus:border-blue-800 transition-all resize-none mb-6 "
             ></textarea>
             <button type="submit" className="btn btn-lg mb-10">
               Send Message

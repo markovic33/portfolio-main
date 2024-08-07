@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "../assets/mee.png";
+import Image from "../assets/ja.png";
 import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
