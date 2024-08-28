@@ -15,6 +15,10 @@ import daisy from "../assets/daisy.png";
 import mongo from "../assets/mongo.jpg";
 import php from "../assets/php.png";
 import sql from "../assets/sql.png";
+import node from "../assets/nodejs.png";
+import express from "../assets/express.png";
+
+
 
 const About = () => {
   const [ref, inView] = useInView({
@@ -198,6 +202,42 @@ const About = () => {
                     <img
                       className="rounded-full object-cover w-7 h-7"
                       src={mongo}
+                      alt="/"
+                      width={30}
+                      height={30}
+                    />
+                  </div>
+                </motion.div>
+                <motion.div
+                  variants={fadeIn("up", 0.85)}
+                  initial="hidden"
+                  whileInView={"show"}
+                  viewport={{ once: false, amount: 0.4 }}
+                  className="flex-1 lg:flex  gap-x-6 mb-4"
+                >
+                  <div className="flex items-center gap-6 mb-1 font-medium">
+                    Node JS
+                    <img
+                      className="rounded-full object-cover w-7 h-7"
+                      src={node}
+                      alt="/"
+                      width={30}
+                      height={30}
+                    />
+                  </div>
+                </motion.div>
+                <motion.div
+                  variants={fadeIn("up", 0.85)}
+                  initial="hidden"
+                  whileInView={"show"}
+                  viewport={{ once: false, amount: 0.4 }}
+                  className="flex-1 lg:flex  gap-x-6 mb-4"
+                >
+                  <div className="flex items-center gap-6 mb-1 font-medium">
+                    Express JS
+                    <img
+                      className="rounded-full object-cover w-7 h-7"
+                      src={express}
                       alt="/"
                       width={30}
                       height={30}
