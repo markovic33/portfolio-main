@@ -18,6 +18,8 @@ import blog from "../assets/blog.png";
 import rent from "../assets/rentcar.png";
 import ruza from "../assets/ruzavetrova.png";
 import servis from "../assets/servis.png";
+import reactblog from "../assets/blog_react.png";
+import ecomreact from "../assets/eccom_react.png";
 
 const Services = () => {
   return (
@@ -349,6 +351,61 @@ const Services = () => {
           <h1 className="text-3xl ml-4 mb-2 mt-2 text-gradient">React</h1>
 
           <div class="flex overflow-x-auto space-x-8 ml-10 mr-10 ">
+
+          <section class="flex-shrink-0 rounded-lg mb-2 ">
+              <div className="group relative overflow-hidden border-2 max-h-[260px] border-white/50 rounded-xl">
+                <div className="group-hover:bg-black/60 w-full h-full absolute z-40 transition-all duration-300"></div>
+                <img
+                  src={ecomreact}
+                  alt="ecom"
+                  className="object-cover w-[280px] h-[130px] group-hover:scale-110 transition-all duration-500"
+                />
+                <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
+                  <span className="text-gradient">React</span>
+                </div>
+                <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
+                  <span className="text-3xl text-white">React Shop</span>
+                </div>
+                <div className="absolute -bottom-full left-12 group-hover:bottom-4 transition-all duration-700 z-50">
+                <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://ecommerce-shop-nextjs.vercel.app/"
+                    className=" underline text-xl text-white"
+                  >
+                    Visit site
+                  </a>
+                </div>
+              </div>
+            </section>
+
+          <section class="flex-shrink-0 rounded-lg mb-2 ">
+              <div className="group relative overflow-hidden border-2 max-h-[260px] border-white/50 rounded-xl">
+                <div className="group-hover:bg-black/60 w-full h-full absolute z-40 transition-all duration-300"></div>
+                <img
+                  src={reactblog}
+                  alt="blog"
+                  className="object-cover w-[280px] h-[130px] group-hover:scale-110 transition-all duration-500"
+                />
+                <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
+                  <span className="text-gradient">React</span>
+                </div>
+                <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
+                  <span className="text-3xl text-white">React Blog</span>
+                </div>
+                <div className="absolute -bottom-full left-12 group-hover:bottom-4 transition-all duration-700 z-50">
+                <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://blog-react-firebase-mu.vercel.app/"
+                    className=" underline text-xl text-white"
+                  >
+                    Visit site
+                  </a>
+                </div>
+              </div>
+            </section>
+
             <section class="flex-shrink-0 rounded-lg mb-2 ">
               <div className="group relative overflow-hidden border-2 max-h-[260px] border-white/50 rounded-xl">
                 <div className="group-hover:bg-black/60 w-full h-full absolute z-40 transition-all duration-300"></div>
@@ -404,7 +461,7 @@ const Services = () => {
                   <span className="text-3xl text-white">Restourant Site</span>
                 </div>
                 <div className="absolute -bottom-full left-12 group-hover:bottom-4 transition-all duration-700 z-50">
-                  <p className=" underline text-xl text-white">React/ScSS</p>
+                  <p className=" underline text-xl text-white">React</p>
                 </div>
               </div>
             </section>
@@ -421,10 +478,10 @@ const Services = () => {
                   <span className="text-gradient">React</span>
                 </div>
                 <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                  <span className="text-3xl text-white">Air B&B</span>
+                  <span className="text-3xl text-white">Air Bnb</span>
                 </div>
                 <div className="absolute -bottom-full left-12 group-hover:bottom-4 transition-all duration-700 z-50">
-                  <p className=" underline text-xl text-white">React/ScSS</p>
+                  <p className=" underline text-xl text-white">React</p>
                 </div>
               </div>
             </section>
@@ -444,7 +501,7 @@ const Services = () => {
                   <span className="text-3xl text-white">Tenezis</span>
                 </div>
                 <div className="absolute -bottom-full left-12 group-hover:bottom-4 transition-all duration-700 z-50">
-                  <p className=" underline text-xl text-white">Visit site</p>
+                  <p className=" underline text-xl text-white">React</p>
                 </div>
               </div>
             </section>
@@ -464,7 +521,7 @@ const Services = () => {
                   <span className="text-3xl text-white">Quiz</span>
                 </div>
                 <div className="absolute -bottom-full left-12 group-hover:bottom-4 transition-all duration-700 z-50">
-                  <p className=" underline text-xl text-white">React/ScSS</p>
+                  <p className=" underline text-xl text-white">React</p>
                 </div>
               </div>
             </section>
